@@ -30,7 +30,7 @@ let secondsBetweenChecks = 5;
         console.log("Iterating.............");
         await sendMessageToNewFollowers(ig);
     } while(true);
-    //setInterval(await sendMessageToNewFollowers.bind(null, ig), 1000 * secondsBetweenChecks);
+    // setInterval(await sendMessageToNewFollowers.bind(null, ig), 1000 * secondsBetweenChecks);
     
     //console.log(commentsResponse.length);
     
